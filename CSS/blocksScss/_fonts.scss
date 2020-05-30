@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'FSElliotPro';
     src: url('/Fonts/FSElliotPro.eot');
-    src: local('☺'), url('../../Fonts/FSElliotPro.woff') format('woff'), url('../../Fonts/FSElliotPro.ttf') format('truetype'), url('/../..Fonts/FSElliotPro.svg') format('svg');
+    src: local('☺'), url('/Fonts/FSElliotPro.woff') format('woff'), url('/Fonts/FSElliotPro.ttf') format('truetype'), url('/Fonts/FSElliotPro.svg') format('svg');
     font-weight: 400;
     font-style: normal;
 }
@@ -10,7 +10,7 @@
 //FSElliotPro-Bold
 @font-face {
     font-family: 'FSElliotPro-Bold';
-    src: url('/Fonts/FSElliotPro-Bold.eot');
+    src: url('../../Fonts/FSElliotPro-Bold.eot');
     src: local('☺'), url('../../Fonts/FSElliotPro-Bold.woff') format('woff'), url('../../Fonts/FSElliotPro-Bold.ttf') format('truetype'), url('../../Fonts/FSElliotPro-Bold.svg') format('svg');
     font-weight: 700;
     font-style: normal;
@@ -19,8 +19,8 @@
 //FSElliotPro-BoldItalic
 @font-face {
     font-family: 'FSElliotPro-BoldItalic';
-    src: url('/Fonts/FSElliotPro-BoldItalic.eot');
-    src: local('☺'), url('/Fonts/FSElliotPro-BoldItalic.woff') format('woff'), url('/Fonts/FSElliotPro-BoldItalic.ttf') format('truetype'), url('/Fonts/FSElliotPro-BoldItalic.svg') format('svg');
+    src: url('../../Fonts/FSElliotPro-BoldItalic.eot');
+    src: local('☺'), url('../../Fonts/FSElliotPro-BoldItalic.woff') format('woff'), url('../../Fonts/FSElliotPro-BoldItalic.ttf') format('truetype'), url('../../Fonts/FSElliotPro-BoldItalic.svg') format('svg');
     font-weight: 700;
     font-style: italic;
 }

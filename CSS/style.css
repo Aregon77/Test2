@@ -2,14 +2,14 @@
 @font-face {
   font-family: 'FSElliotPro';
   src: url("/Fonts/FSElliotPro.eot");
-  src: local("☺"), url("../../Fonts/FSElliotPro.woff") format("woff"), url("../../Fonts/FSElliotPro.ttf") format("truetype"), url("/../..Fonts/FSElliotPro.svg") format("svg");
+  src: local("☺"), url("/Fonts/FSElliotPro.woff") format("woff"), url("/Fonts/FSElliotPro.ttf") format("truetype"), url("/Fonts/FSElliotPro.svg") format("svg");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'FSElliotPro-Bold';
-  src: url("/Fonts/FSElliotPro-Bold.eot");
+  src: url("../../Fonts/FSElliotPro-Bold.eot");
   src: local("☺"), url("../../Fonts/FSElliotPro-Bold.woff") format("woff"), url("../../Fonts/FSElliotPro-Bold.ttf") format("truetype"), url("../../Fonts/FSElliotPro-Bold.svg") format("svg");
   font-weight: 700;
   font-style: normal;
@@ -17,8 +17,8 @@
 
 @font-face {
   font-family: 'FSElliotPro-BoldItalic';
-  src: url("/Fonts/FSElliotPro-BoldItalic.eot");
-  src: local("☺"), url("/Fonts/FSElliotPro-BoldItalic.woff") format("woff"), url("/Fonts/FSElliotPro-BoldItalic.ttf") format("truetype"), url("/Fonts/FSElliotPro-BoldItalic.svg") format("svg");
+  src: url("../../Fonts/FSElliotPro-BoldItalic.eot");
+  src: local("☺"), url("../../Fonts/FSElliotPro-BoldItalic.woff") format("woff"), url("../../Fonts/FSElliotPro-BoldItalic.ttf") format("truetype"), url("../../Fonts/FSElliotPro-BoldItalic.svg") format("svg");
   font-weight: 700;
   font-style: italic;
 }
@@ -108,6 +108,10 @@
 
 .nav .nav__link a:not(:last-child) {
   margin-right: 24px;
+}
+
+.nav .nav__social a {
+  color: #000;
 }
 
 .nav .nav__social a:not(:last-child) {
@@ -779,11 +783,11 @@
 }
 
 .reviews__slider .slick-prev:before {
-  content: url(../../img/reviews/prev__arrow.png);
+  content: url(../img/reviews/prev__arrow.png);
 }
 
 .reviews__slider .slick-next:before {
-  content: url(../../img/reviews/next__arrow.png);
+  content: url(../img/reviews/next__arrow.png);
 }
 
 .reviews__slider .slider__block {
@@ -1185,5 +1189,85 @@ button {
   border: dotted #ff9b00;
   border-width: 0 0 3px;
   color: #ff9b00;
+}
+
+@font-face {
+  font-family: 'FSElliotPro';
+  src: url("../Fonts/FSElliotPro.eot");
+  src: local("☺"), url("../Fonts/FSElliotPro.woff") format("woff"), url("../Fonts/FSElliotPro.ttf") format("truetype"), url("../Fonts/FSElliotPro.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-Bold';
+  src: url("../../Fonts/FSElliotPro-Bold.eot");
+  src: local("☺"), url("../../Fonts/FSElliotPro-Bold.woff") format("woff"), url("../../Fonts/FSElliotPro-Bold.ttf") format("truetype"), url("../../Fonts/FSElliotPro-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-BoldItalic';
+  src: url("../../Fonts/FSElliotPro-BoldItalic.eot");
+  src: local("☺"), url("../../Fonts/FSElliotPro-BoldItalic.woff") format("woff"), url("../../Fonts/FSElliotPro-BoldItalic.ttf") format("truetype"), url("../../Fonts/FSElliotPro-BoldItalic.svg") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-Heavy';
+  src: url("/Fonts/FSElliotPro-Heavy.eot");
+  src: local("☺"), url("Fonts/FSElliotPro-Heavy.woff") format("woff"), url("/Fonts/FSElliotPro-Heavy.ttf") format("truetype"), url("/Fonts/FSElliotPro-Heavy.svg") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-HeavyItalic';
+  src: url("/Fonts/FSElliotPro-HeavyItalic.eot");
+  src: local("☺"), url("/Fonts/FSElliotPro-HeavyItalic.woff") format("woff"), url("/Fonts/FSElliotPro-HeavyItalic.ttf") format("truetype"), url("/Fonts/FSElliotPro-HeavyItalic.svg") format("svg");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-Italic';
+  src: url("/Fonts/FSElliotPro-Italic.eot");
+  src: local("☺"), url("/Fonts/FSElliotPro-Italic.woff") format("woff"), url("/Fonts/FSElliotPro-Italic.ttf") format("truetype"), url("/Fonts/FSElliotPro-Italic.svg") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-Light';
+  src: url("/Fonts/FSElliotPro-Light.eot");
+  src: local("☺"), url("/Fonts/FSElliotPro-Light.woff") format("woff"), url("/Fonts/FSElliotPro-Light.ttf") format("truetype"), url("/Fonts/FSElliotPro-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-LightItalic';
+  src: url("../../Fonts/FSElliotPro-LightItalic.eot");
+  src: local("☺"), url("/Fonts/FSElliotPro-LightItalic.woff") format("woff"), url("/Fonts/FSElliotPro-LightItalic.ttf") format("truetype"), url("/Fonts/FSElliotPro-LightItalic.svg") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-Thin';
+  src: url("/Fonts/FSElliotPro-Thin.eot");
+  src: local("☺"), url("/Fonts/FSElliotPro-Thin.woff") format("woff"), url("/Fonts/FSElliotPro-Thin.ttf") format("truetype"), url("/Fonts/FSElliotPro-Thin.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSElliotPro-ThinItalic';
+  src: url("/Fonts/FSElliotPro-ThinItalic.eot");
+  src: local("☺"), url("/Fonts/FSElliotPro-ThinItalic.woff") format("woff"), url("/Fonts/FSElliotPro-ThinItalic.ttf") format("truetype"), url("/Fonts/FSElliotPro-ThinItalic.svg") format("svg");
+  font-weight: 100;
+  font-style: italic;
 }
 /*# sourceMappingURL=style.css.map */
