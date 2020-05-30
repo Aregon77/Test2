@@ -1,0 +1,121 @@
+// Блок reviews
+.reviews {
+    background: url(./img/reviews/back.jpg) no-repeat;
+    background-size: cover;
+}
+
+// reviews__title
+.reviews__title {
+    text-align: center;
+    padding-top: 75px;
+
+    h1 {
+        font-size: 32px;
+        font-family: 'FSElliotPro-Bold';
+        color: rgb(0, 0, 0);
+        line-height: 1;
+
+        text-transform: uppercase;
+    }
+}
+
+// Блок reviews__slider
+.reviews__slider {
+    padding-top: 25px;
+    padding-bottom: 75px;
+
+    // Настраиваем кнопки слайдера
+    .slick-dots {
+        bottom: 12px;
+    }
+
+    .slick-dots li button:before {
+        font-size: 10px;
+        color: #d9d9d9;
+        opacity: 1;
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #ffc400;
+    }
+
+    .slick-dots li {
+        margin: 0 -2px;
+
+    }
+
+    // Стрелки слайдера
+    .slick-prev:before {
+        content: url(../../img/reviews/prev__arrow.png);
+    }
+
+    .slick-next:before {
+        content: url(../../img/reviews/next__arrow.png);
+    }
+
+    // Контент slider__block
+    .slider__block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .block__img {
+            margin-right: 45px;
+
+            img {
+                width: 227px;
+                height: 227px;
+
+                padding-bottom: 10px;
+            }
+        }
+
+        .block-content {
+            h2 {
+                font-size: 22px;
+                font-family: "FSElliotPro";
+                color: rgb(0, 0, 0);
+                font-weight: bold;
+                text-align: left;
+
+                padding-bottom: 10px;
+            }
+
+            .post {
+                font-size: 16px;
+                font-family: "FSElliotPro";
+                color: rgb(0, 0, 0);
+                line-height: 1;
+                text-align: left;
+
+                display: inline-block;
+                padding-bottom: 25px;
+            }
+
+            P {
+                font-size: 16px;
+                font-family: "FSElliotPro";
+                color: rgb(0, 0, 0);
+                line-height: 1.333;
+                text-align: left;
+
+                width: 100%;
+                max-width: 755px;
+
+                padding-bottom: 25px;
+            }
+
+            .date {
+                font-size: 13px;
+                font-family: 'FSElliotPro-Bold';
+                color: rgb(0, 0, 0);
+
+                line-height: 1.2;
+                text-align: left;
+            }
+        }
+    }
+
+}

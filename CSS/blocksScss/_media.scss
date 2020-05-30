@@ -1,0 +1,39 @@
+@media screen and (max-width: 1250px) {
+
+    .nav__link {
+        display: none;
+    }
+
+    .nav__burger {
+        display: block;
+    }
+
+    .tariff__menu .menu__link .menu__item:first-child {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .tariff__menu .menu__link .menu__item:last-child {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .menu__content .content__pict {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    .slick-prev {
+        display: none !important;
+    }
+
+    .slick-next {
+        display: none !important;
+    }
+
+    .partner {
+        background-position-x: 36%;
+    }
+
+
+}

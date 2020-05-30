@@ -1,0 +1,143 @@
+//header__intro
+.header__intro {
+    height: 720px;
+    background: url(../img/header__intro/back.jpg) no-repeat center center;
+    background-size: cover;
+
+    .intro__request {
+        padding-top: 80px;
+
+        h1 {
+            font-size: 48px;
+            font-family: "FSElliotPro";
+            color: rgb(255, 255, 255);
+            line-height: 1.139;
+
+            width: 100%;
+            max-width: 615px;
+
+            margin-bottom: 40px;
+        }
+
+    }
+
+    .order {
+
+        //order_link и input в нем
+        .order_link {
+            display: flex;
+            flex-direction: column;
+
+            flex-wrap: wrap;
+
+            input[type=text] {
+                width: 100%;
+                max-width: 512px;
+                height: 57px;
+
+                border: 2px solid #7c7578;
+                border-radius: 12px;
+
+                background: transparent;
+
+
+                font-size: 18.664px;
+
+                color: rgb(255, 255, 255);
+                padding-left: 30px;
+
+                outline: none;
+
+                margin-bottom: 5px;
+                margin-top: 20px;
+            }
+        }
+
+        //Блоки для выбора места назначения и отправления
+        .location,
+        .destination {
+
+            label {
+                cursor: pointer;
+                margin-right: 10px;
+            }
+
+            input[type=radio] {
+                position: absolute;
+                left: -99999px;
+
+            }
+
+            // Выбранный Элемент меняет цвет и добавляется бордер
+            input[type=radio]:checked+span>.text {
+                border: dotted #ff9b00;
+                border-width: 0 0 3px;
+                color: #ff9b00;
+            }
+
+            // Svg иконки меняют цвет
+            input[type=radio]:checked+span {
+                .icon-location-point:before {
+                    color: #ff9b00;
+                }
+
+                .icon-plane:before {
+                    color: #ff9b00;
+
+                }
+
+                .icon-train:before {
+                    color: #ff9b00;
+
+                }
+            }
+
+            // Все спаны в том числе и иконки
+            span {
+                font-size: 16px;
+                font-family: "FSElliotPro";
+                color: rgb(255, 255, 255);
+                line-height: 3.417;
+
+                border-bottom: none;
+            }
+
+            .icon-plane {
+                font-size: 24px;
+                display: inline-block;
+                transform: translateY(7px);
+            }
+
+            .icon-train {
+                font-size: 23px;
+                display: inline-block;
+                transform: translateY(6px);
+            }
+
+            .icon-location-point {
+                font-size: 23px;
+                display: inline-block;
+                transform: translateY(6px);
+            }
+        }
+
+        // Кнопка заказа
+        .order__btn {
+            padding-top: 65px;
+
+            .btn {
+                height: 63px;
+                width: 100%;
+                max-width: 278px;
+
+                border-radius: 50px;
+
+                font-size: 20px;
+                font-family: 'FSElliotPro-Bold';
+                color: rgb(0, 0, 0);
+
+                background: linear-gradient(to top, #ff8e00, #ffc400);
+            }
+        }
+    }
+}
