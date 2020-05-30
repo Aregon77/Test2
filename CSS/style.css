@@ -9,16 +9,16 @@
 
 @font-face {
   font-family: 'FSElliotPro-Bold';
-  src: url("../../Fonts/FSElliotPro-Bold.eot");
-  src: local("☺"), url("../../Fonts/FSElliotPro-Bold.woff") format("woff"), url("../../Fonts/FSElliotPro-Bold.ttf") format("truetype"), url("../../Fonts/FSElliotPro-Bold.svg") format("svg");
+  src: url("/Fonts/FSElliotPro-Bold.eot");
+  src: local("☺"), url("/Fonts/FSElliotPro-Bold.woff") format("woff"), url("/Fonts/FSElliotPro-Bold.ttf") format("truetype"), url("/Fonts/FSElliotPro-Bold.svg") format("svg");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'FSElliotPro-BoldItalic';
-  src: url("../../Fonts/FSElliotPro-BoldItalic.eot");
-  src: local("☺"), url("../../Fonts/FSElliotPro-BoldItalic.woff") format("woff"), url("../../Fonts/FSElliotPro-BoldItalic.ttf") format("truetype"), url("../../Fonts/FSElliotPro-BoldItalic.svg") format("svg");
+  src: url("/Fonts/FSElliotPro-BoldItalic.eot");
+  src: local("☺"), url("/Fonts/FSElliotPro-BoldItalic.woff") format("woff"), url("/Fonts/FSElliotPro-BoldItalic.ttf") format("truetype"), url("/Fonts/FSElliotPro-BoldItalic.svg") format("svg");
   font-weight: 700;
   font-style: italic;
 }
@@ -57,7 +57,7 @@
 
 @font-face {
   font-family: 'FSElliotPro-LightItalic';
-  src: url("../../Fonts/FSElliotPro-LightItalic.eot");
+  src: url("/Fonts/FSElliotPro-LightItalic.eot");
   src: local("☺"), url("/Fonts/FSElliotPro-LightItalic.woff") format("woff"), url("/Fonts/FSElliotPro-LightItalic.ttf") format("truetype"), url("/Fonts/FSElliotPro-LightItalic.svg") format("svg");
   font-weight: 300;
   font-style: italic;
@@ -788,6 +788,10 @@
 
 .reviews__slider .slick-next:before {
   content: url(../img/reviews/next__arrow.png);
+}
+
+.reviews__slider .reviews__slider .slider__bloc {
+  outline: none;
 }
 
 .reviews__slider .slider__block {

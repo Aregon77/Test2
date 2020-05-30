@@ -53,6 +53,10 @@
         content: url(../img/reviews/next__arrow.png);
     }
 
+    .reviews__slider .slider__bloc {
+        outline: none;
+    }
+
     // Контент slider__block
     .slider__block {
         display: flex;
